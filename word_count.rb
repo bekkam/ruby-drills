@@ -9,7 +9,7 @@ def WordCount(str)
   str.split(" ").size          
 end
 
-# Alternatives
+# Solution
 def WordCount(str)
   words = str.scan(/\S+/)
   words.count
